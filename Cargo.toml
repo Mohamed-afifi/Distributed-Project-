@@ -1,12 +1,23 @@
 [package]
-name = "client"
+name = "server_final"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-serde={version="1.0", features=["derive"]}
-serde_json="1.0"
+sysinfo = "0.29.10"
+procfs = "0.16.0"
+sys-info = "0.9.1"
+image = "0.24.7"
+base64 = "0.21.4"
+rayon = "1.5.1"
+rand = "0.8.5"
+serde_json = "1.0"
 serde_derive = "1.0"
-base64="0.21.4"
+serde = {version="1.0", features = ["derive"]}
+chrono = "0.4.19"
+bincode = "1.0"
+steganography="*"
+show-image="0.13.1"
+minifb="0.19.0"
